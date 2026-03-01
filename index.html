@@ -1,0 +1,90 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>test test-Vercel</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body, html {
+    margin: 0; padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    text-align: center;
+    background: rgba(255 255 255 / 0.1);
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    max-width: 480px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.2);
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+  }
+  p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.85;
+  }
+  .btn-primary {
+    background: #ff6a00;
+    background: linear-gradient(90deg,#ff6a00,#ee0979);
+    border: none;
+    padding: 0.85rem 2.25rem;
+    font-size: 1.125rem;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 4px 14px rgb(238 9 121 / 0.6);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background: linear-gradient(90deg,#ee0979,#ff6a00);
+    box-shadow: 0 6px 20px rgb(255 106 0 / 0.85);
+    outline: none;
+  }
+  footer {
+    position: fixed;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgba(255 255 255 / 0.6);
+    user-select: none;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>test test-Vercel</h1>
+    <p class="lead">Welcome to your landing page powered by Vercel — fast, modern, and beautiful.</p>
+    <button class="btn-primary" id="actionBtn" type="button" aria-label="Get Started">Get Started</button>
+  </div>
+  <footer>
+    &copy; 2024 test test-Vercel
+  </footer>
+<script>
+  const btn = document.getElementById('actionBtn');
+  btn.addEventListener('click', () => {
+    alert('Thank you for clicking Get Started! 🚀');
+  });
+</script>
+</body>
+</html>
+```
